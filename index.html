@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>D3 Mapping on Canvas</title>
+    <link rel="stylesheet" type="text/css" href="inspector.css">
+</head>
+<body><!--script type="module" src="index.js"></script-->
+<div class="notebook-content">
+
+</div>
+
+<script type="module">
+
+    import { Inspector, Runtime } from "./runtime.js"; // "https://unpkg.com/@observablehq/runtime@3/dist/runtime.js";
+    import notebook from "./@dancingfrog/d3-mapping-on-canvas.js";
+
+    const runtime = new Runtime();
+    const main = runtime.module(notebook, Inspector.into(document.querySelector(`.notebook-content`)));
+    // main.value("foo").then(value => console.log(value));
+
+</script>
+</body>

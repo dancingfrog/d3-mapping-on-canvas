@@ -1,0 +1,17 @@
+{
+  "name": "@dancingfrog/d3-mapping-on-canvas",
+  "main": "@dancingfrog/d3-mapping-on-canvas.js",
+  "version": "1344.0.0",
+  "homepage": "https://observablehq.com/@dancingfrog/d3-mapping-on-canvas",
+  "author": {
+    "name": "John Hall",
+    "url": "https://observablehq.com/@dancingfrog"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@observablehq/runtime": "^4.2.0"
+  },
+  "dependencies": {
+    "d3-mapping-on-canvas": "https://api.observablehq.com/@dancingfrog/d3-mapping-on-canvas.tgz"
+  }
+}
