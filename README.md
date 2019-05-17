@@ -1,6 +1,6 @@
 # D3 Mapping on Canvas
 
-https://observablehq.com/@dancingfrog/d3-mapping-on-canvas@1387
+https://observablehq.com/@dancingfrog/d3-mapping-on-canvas
 
 View this notebook in your browser by running a web server in this folder. For
 example:
