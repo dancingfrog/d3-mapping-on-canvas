@@ -1,5 +1,5 @@
 // https://observablehq.com/@dancingfrog/intro-to-d3-canvas
-import define1 from "../@dancingfrog/d3-equal-earth.js";
+import d3_equal_earth from "../@dancingfrog/d3-equal-earth.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
@@ -12,7 +12,7 @@ md`# Intro to D3 Canvas`
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require('d3')
 )});
-  const child1 = runtime.module(define1).derive([{name: "canvas", alias: "screen"}], main);
+  const child1 = runtime.module(d3_equal_earth).derive([{name: "canvas", alias: "screen"}], main);
   main.import("map", child1);
   main.variable(observer()).define(["map"], function(map){return(
 map
