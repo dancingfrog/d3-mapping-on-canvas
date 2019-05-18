@@ -1,4 +1,4 @@
-// https://observablehq.com/@dancingfrog/d3-mapping-on-canvas@1387
+// https://observablehq.com/@dancingfrog/d3-mapping-on-canvas
 export default function define (runtime, observer) {
     const main = runtime.module();
     main.variable(observer()).define(["md"], function (md) {

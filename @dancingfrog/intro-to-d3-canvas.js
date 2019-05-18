@@ -1,4 +1,4 @@
-// https://observablehq.com/@dancingfrog/intro-to-d3-canvas@1346
+// https://observablehq.com/@dancingfrog/intro-to-d3-canvas
 import define1 from "../@dancingfrog/d3-equal-earth.js";
 
 export default function define(runtime, observer) {

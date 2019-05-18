@@ -1,4 +1,4 @@
-// https://observablehq.com/@dancingfrog/d3-equal-earth@105
+// https://observablehq.com/@dancingfrog/d3-equal-earth
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
